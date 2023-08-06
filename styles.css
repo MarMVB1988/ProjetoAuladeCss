@@ -1,0 +1,135 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+}
+
+p {
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+color: #848484;
+width: 515px;
+margin-top: 32px;
+margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #000;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.button-main:hover {
+    opacity: 0.4;
+}
+
+.button-main:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .img-logo {
+        position: static;
+        width: 354px;
+        height: 354px;
+        margin-top: 149px;
+        margin-left: 40px;
+    }
+
+    h1 {
+        width: auto;
+        height: 350px;
+        font-size: 55px;
+        margin-top: 20x;
+        margin-right: 50px;
+    }
+
+    h2 {
+        color: #515151 ;
+        font-size: 35px;
+        width: auto;
+        margin-top: -270px;
+        margin-left: 10px;
+    }
+
+    .button-main {
+        display: block;
+        margin: 0 auto;
+
+    }
+}
